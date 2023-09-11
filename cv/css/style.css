@@ -1,0 +1,169 @@
+body {
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    border-bottom: dashed red;
+    background-color: #AED2FF;
+}
+
+nav p{
+    margin: 0%;
+    padding: 10px;
+}
+
+nav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.headingImage {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    border-radius: 100%;
+}
+
+.laptop {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration:underline dashed;
+}
+
+h1 {
+    padding-left: 10px;
+    margin-top: 0%;
+    background-color: azure;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: blue;
+    font-size: 50px;
+}
+
+h2 {
+    padding-left: 10px;
+    margin-bottom: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:blueviolet;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.titleHeading {
+    padding-top: 19.92px;
+    background-color: azure;
+    padding-bottom: 50px;
+}
+
+.mainBody {
+    padding-bottom: 19.92px;
+    background-color: azure;
+}
+
+.mainBodyContact {
+    background-color: azure;
+}
+
+.mainBodyContact p {
+    margin-left: 10px;
+}
+
+.mainBody p {
+    padding-left: 10px;
+}
+
+hr {
+    border: dotted red;
+    border-left:0em;
+    border-right:0em;
+}
+
+ul {
+    font-family: 'Merriweather', serif;
+}
+
+dl {
+    margin-bottom: 0%;
+    font-family: 'Merriweather', serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: dashed red;
+    background-color: #AED2FF;
+}
+
+footer a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 8px 0px;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration:underline dashed;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+.card {
+    border: outset;
+    background-color: #AED2FF;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card h3 {
+    padding-left: 10px;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.card dl {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0% auto;
+    width: 260px;
+    padding-bottom: 8px;
+}
+
+form {
+    display: grid;
+    
+}
+
+.one-col .card {
+    padding: 5px;
+}
